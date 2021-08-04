@@ -3,3 +3,7 @@ kind: Kustomization
 
 bases:
   - ../../base
+
+resources:
+  - db-postgresql-svc.yaml
+  - db-postgresql-endpoint.yaml
