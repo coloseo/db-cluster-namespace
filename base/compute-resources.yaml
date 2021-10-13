@@ -5,10 +5,10 @@ metadata:
   namespace: db
 spec:
   hard:
-    requests.cpu: 200m
-    requests.memory: 512Mi
-    limits.cpu: 1000m
-    limits.memory: 2Gi
+    requests.cpu: 1000m
+    requests.memory: 2048Mi
+    limits.cpu: 2000m
+    limits.memory: 4Gi
     requests.storage: 50Gi
     persistentvolumeclaims: "5"
     pods: "20"
