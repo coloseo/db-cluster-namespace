@@ -15,5 +15,5 @@ jobs:
       - name: apply kustomize config
         uses: steebchen/kubectl@v2.0.0
         with:
-          config: ${{ secrets.TKE_CONFIG_DATA_CD }}
-          command: apply -k overlays/production-hubble/
+          config: ${{ secrets.TKE_CONFIG_DATA_NJ }}
+          command: apply -k overlays/production-plutus/
