@@ -5,7 +5,7 @@ metadata:
   namespace: db
 subsets:
   - addresses:
-      - ip: 10.206.0.7
+      - ip: 10.206.0.14
     ports:
       - name: db-port
         port: 5432
